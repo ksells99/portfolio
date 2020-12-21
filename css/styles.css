@@ -10520,6 +10520,16 @@ hr.light {
   }
 }
 
+.particles-container {
+  position: relative;
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -10533,7 +10543,9 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  z-index: 1;
 }
+
 header.masthead h1 {
   font-size: 2.25rem;
 }
