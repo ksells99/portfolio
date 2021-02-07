@@ -10709,7 +10709,7 @@ header.masthead h1 {
       rgba(85, 85, 85, 0.6) 0%,
       rgba(70, 70, 70, 0.6) 100%
     ),
-    url("../assets/img/f1latest-card.png");
+    url("../assets/img/covidata-card.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10722,7 +10722,7 @@ header.masthead h1 {
       rgba(85, 85, 85, 0.6) 0%,
       rgba(70, 70, 70, 0.6) 100%
     ),
-    url("../assets/img/recip-ez-card.png");
+    url("../assets/img/ibuytech-card.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10735,7 +10735,7 @@ header.masthead h1 {
       rgba(85, 85, 85, 0.6) 0%,
       rgba(70, 70, 70, 0.6) 100%
     ),
-    url("../assets/img/my-car-dealership-card.png");
+    url("../assets/img/f1latest-card.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10743,6 +10743,32 @@ header.masthead h1 {
 }
 
 .front-4 {
+  background: linear-gradient(
+      to bottom,
+      rgba(85, 85, 85, 0.6) 0%,
+      rgba(70, 70, 70, 0.6) 100%
+    ),
+    url("../assets/img/recip-ez-card.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.front-5 {
+  background: linear-gradient(
+      to bottom,
+      rgba(85, 85, 85, 0.6) 0%,
+      rgba(70, 70, 70, 0.6) 100%
+    ),
+    url("../assets/img/my-car-dealership-card.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.front-6 {
   background: linear-gradient(
       to bottom,
       rgba(85, 85, 85, 0.6) 0%,
